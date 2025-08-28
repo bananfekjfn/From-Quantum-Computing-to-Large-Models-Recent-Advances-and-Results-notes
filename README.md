@@ -1,13 +1,14 @@
 # 聆聽前輩們的論文發表以及活動演講工作坊的筆記紀錄  
-**From-Quantum-Computing-to-Large-Models-Recent-Advances-and-Results-notes** 劉宸銉博士論文發表  
+## From-Quantum-Computing-to-Large-Models-Recent-Advances-and-Results-notes 劉宸銉博士論文發表  
 主要在探討量子運算與大型深度學習模型（像 GPT、Transformer）之間的結合與最新進展。雖然量子硬體還不成熟，但結合大型模型的研究正在展開，目標是未來能在參數規模與訓練效率上展現量子優勢。  
 
-**Large Scale Quantum Circuit Simulation on HPC platform**  (李泰岳博士)國家實驗研究院  
+## Large Scale Quantum Circuit Simulation on HPC platform  (李泰岳博士)國家實驗研究院  
 主要在說台灣國網中心怎麼用超級電腦來幫忙跑量子電路模擬。因為現在真正的量子電腦還有很多限制（量子位數不夠多、雜訊太大），所以就用 HPC（高效能運算）來模擬大規模量子計算。量子電腦與 HPC 結合：利用張量網路 (Tensor Network) 方法，在 CPU/GPU 上高效模擬量子電路，解決當前量子硬體 qubit 數少、雜訊大的限制。也提到怎麼模擬量子電路：用 GPU + 張量網路的方法，把原本量子硬體做不到的實驗，在 HPC 上跑出來。
 
-**量子產業講座 Tiny Quantum Giant Revolution** 訪談紀錄  https://hackmd.io/@Dsv0suEvTomkyZUCTYt0eQ/S1BnL-3Yle   
+## 量子產業講座 Tiny Quantum Giant Revolution 
+訪談紀錄  https://hackmd.io/@Dsv0suEvTomkyZUCTYt0eQ/S1BnL-3Yle   
 
-**Road to Quantum Utility Workshop 探討 100+ Qubits 實用化挑戰與應用**  (臺大-IBM量子中心)   
+## Road to Quantum Utility Workshop 探討 100+ Qubits 實用化挑戰與應用  (臺大-IBM量子中心)   
 ---**NTU_Workshop_Qiskit_1.0_Overview**   
 介紹 Qiskit 最新的功能和發展方向。Qiskit 已經不只是寫量子電路的工具，而是變成一個能在不同硬體上用、又快又穩的「量子運算平台」。裡面提到它的效能進步很大（像是可以跑到 5000 個量子閘）、還加上 AI 幫忙最佳化電路；也有跨平台的測試數據，證明 Qiskit 比其他同類工具更省資源更有效率。除此之外，它推出一些加速研究的外掛工具和函數目錄，方便做化學、最佳化、機器學習等應用。最後還有開發輔助（Code Assistant）、學習課程，以及新版 1.0 把一些舊功能整理刪除，讓整個生態系更乾淨、好用。  
 ---**NTU_Workshop_Quantum_Machine_Learning**  
@@ -24,7 +25,7 @@ Operator backpropagation (OBP)：以減少電路深度為代價，增加算符�
 Sample-based Quantum Diagonalization (SQD)：結合經典分散式運算，從雜訊樣本中提取更準確的能量特徵值。  
 整體來說，這些 Addons 是 IBM 把最新研究成果封裝成可直接下載使用的工具，目標是協助研究者在「utility scale」的硬體限制下，仍能進行更有效的量子化學模擬、時間演化與能量估算  
 
-**Introduction of Quantum Walk_CUDA0  (張晏瑞博士)**   
+## Introduction of Quantum Walk_CUDA0  (張晏瑞博士)   
 介紹量子漫步 (Quantum Walk, QW) 的基本概念與應用。它從經典隨機漫步（Classical Random Walk）出發，說明量子版本如何利用疊加與干涉來模擬系統動態。內容重點放在離散時間量子漫步 (Discrete-Time Quantum Walk, DTQW)，整體來說，算是對量子漫步的入門導讀。包括：  
 Hilbert 空間結構：由「coin space（擲幣空間）」與「position space（位置空間）」組成。    
 運算子設計：藉由不同的 coin operator（如 Pauli-X、Z、Hadamard）結合 shift operator 來控制漫步的演化。    
