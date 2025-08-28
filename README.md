@@ -23,10 +23,10 @@ Multi-product formulas (MPF)：透過多種 Trotter 分解組合來降低模擬�
 AQC-Tensor：利用張量網路壓縮電路前段，讓更多深度可以用於後續時間演化。  
 Operator backpropagation (OBP)：以減少電路深度為代價，增加算符測量數量，換取更抗雜訊的結果。  
 Sample-based Quantum Diagonalization (SQD)：結合經典分散式運算，從雜訊樣本中提取更準確的能量特徵值。  
-整體來說，這些 Addons 是 IBM 把最新研究成果封裝成可直接下載使用的工具，目標是協助研究者在「utility scale」的硬體限制下，仍能進行更有效的量子化學模擬、時間演化與能量估算  
+整體來說，這些 Addons 是 IBM 把最新研究成果封裝成可直接下載使用的工具，目標是協助研究者在「utility scale」的硬體限制下，仍能進行更有效的量子化學模擬、時間演化與能量估算。    
 
 ## Introduction of Quantum Walk_CUDA0  (張晏瑞博士)   
-介紹量子漫步 (Quantum Walk, QW) 的基本概念與應用。它從經典隨機漫步（Classical Random Walk）出發，說明量子版本如何利用疊加與干涉來模擬系統動態。內容重點放在離散時間量子漫步 (Discrete-Time Quantum Walk, DTQW)，整體來說，算是對量子漫步的入門導讀。包括：  
+介紹量子漫步 (Quantum Walk, QW) 的基本概念與應用。它從經典隨機漫步（Classical Random Walk）出發，說明量子版本如何利用疊加與干涉來模擬系統動態。內容重點放在離散時間量子漫步 (Discrete-Time Quantum Walk, DTQW)，算是對量子漫步的入門導讀。包括：  
 Hilbert 空間結構：由「coin space（擲幣空間）」與「position space（位置空間）」組成。    
 運算子設計：藉由不同的 coin operator（如 Pauli-X、Z、Hadamard）結合 shift operator 來控制漫步的演化。    
 實驗與展示：展示初始狀態與不同幣算符下的演化結果，顯示量子漫步能展現比經典隨機漫步更複雜的分布特性。  
