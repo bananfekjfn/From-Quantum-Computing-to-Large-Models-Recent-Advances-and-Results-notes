@@ -1,5 +1,5 @@
 # 聆聽前輩們的論文發表以及活動演講工作坊的筆記紀錄  
-## From-Quantum-Computing-to-Large-Models-Recent-Advances-and-Results-notes 劉宸銉博士論文發表  
+## From-Quantum-Computing-to-Large-Models-Recent-Advances-and-Results-notes 劉宸銉博士  
 主要在探討量子運算與大型深度學習模型（像 GPT、Transformer）之間的結合與最新進展。雖然量子硬體還不成熟，但結合大型模型的研究正在展開，目標是未來能在參數規模與訓練效率上展現量子優勢。  
 
 ## Large Scale Quantum Circuit Simulation on HPC platform  (李泰岳博士)國家實驗研究院  
